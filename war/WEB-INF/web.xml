@@ -29,6 +29,22 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	    <servlet-name>PrefServlet</servlet-name>
 	    <url-pattern>/prefs</url-pattern>
 	</servlet-mapping>
+	<servlet>
+	    <servlet-name>FormulirServlet</servlet-name>
+	    <servlet-class>id.ac.unsyiah.jte.mobile.FormulirServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>FormulirServlet</servlet-name>
+	    <url-pattern>/formulir</url-pattern>
+	</servlet-mapping>
+	<servlet>
+	    <servlet-name>BilanganServlet</servlet-name>
+	    <servlet-class>id.ac.unsyiah.jte.mobile.BilanganServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>BilanganServlet</servlet-name>
+	    <url-pattern>/bilangan</url-pattern>
+	</servlet-mapping>
 	<security-constraint>
 	    <web-resource-collection>
 	        <web-resource-name>prefs</web-resource-name>
