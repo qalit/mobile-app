@@ -45,6 +45,22 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	    <servlet-name>BilanganServlet</servlet-name>
 	    <url-pattern>/bilangan</url-pattern>
 	</servlet-mapping>
+	<servlet>
+	    <servlet-name>SeleksiBilanganServlet</servlet-name>
+	    <servlet-class>id.ac.unsyiah.jte.mobile.SeleksiBilanganServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>SeleksiBilanganServlet</servlet-name>
+	    <url-pattern>/seleksibilangan</url-pattern>
+	</servlet-mapping>
+	<servlet>
+	    <servlet-name>BandingServlet</servlet-name>
+	    <servlet-class>id.ac.unsyiah.jte.mobile.BandingServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>BandingServlet</servlet-name>
+	    <url-pattern>/banding</url-pattern>
+	</servlet-mapping>
 	<security-constraint>
 	    <web-resource-collection>
 	        <web-resource-name>prefs</web-resource-name>

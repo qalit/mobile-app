@@ -27,6 +27,7 @@ public class BilanganServlet extends HttpServlet {
 		String prima = "Prima";
 		
 		for(int cont=2; cont<=input/cont; cont++){
+			System.out.print(cont++);
 			if((input%cont) == 0){
 				prima = "Bukan Prima";
 				break;
